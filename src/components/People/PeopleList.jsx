@@ -92,6 +92,7 @@ const PeopleList = () => {
         </div>
 
         <Button
+          variant="primary"
           onClick={() => setIsAddModalOpen(true)}
           className="flex items-center gap-2"
         >

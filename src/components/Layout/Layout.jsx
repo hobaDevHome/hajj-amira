@@ -12,14 +12,16 @@ const Layout = ({ children, user }) => {
 
   return (
     <div className="min-h-screen flex flex-col ">
-      <header className="bg-secondary-500 text-white shadow-md">
+      <header className="bg-primary-500 text-white shadow-md">
         <div className="container mx-auto py-2">
           <img
-            src="/images/kaaba.jpg"
+            src="/images/kaaba2.jpg"
             alt="الكعبة"
             className="w-full max-h-64 object-cover rounded-xl "
           />
-          <div className="flex items-center justify-between"></div>
+          <div className=" mt-4 text-center self-center text-3xl bg-cyan-50 text-primary-950 p-2 rounded-md">
+            دعوات الحاجة أميرة
+          </div>
 
           <motion.div
             initial={{ opacity: 0, y: -10 }}

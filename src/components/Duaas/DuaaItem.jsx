@@ -62,7 +62,7 @@ const DuaaItem = ({ duaa, personId }) => {
         <button
           className={`flex-shrink-0 w-3 h-3 rounded border mt-0.5 flex items-center justify-center transition-colors ${
             duaa.is_done
-              ? "bg-success-500 border-success-500 text-white"
+              ? "bg-primary-500 border-primary-500 text-white"
               : "border-gray-300 hover:border-primary-500"
           }`}
         >
@@ -128,14 +128,14 @@ const DuaaItem = ({ duaa, personId }) => {
           ) : (
             <>
               <Button
-                variant="secondary"
+                variant="accent"
                 size="sm"
                 onClick={() => setShowActions(false)}
               >
                 إغلاق
               </Button>
               <Button
-                variant="secondary"
+                variant="primary"
                 size="sm"
                 onClick={() => setIsEditing(true)}
                 className="flex items-center gap-1"

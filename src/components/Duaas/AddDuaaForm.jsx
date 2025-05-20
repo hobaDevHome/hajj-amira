@@ -53,7 +53,7 @@ const AddDuaaForm = ({ personId }) => {
         {error && <p className="mt-1 text-sm text-red-600">{error}</p>}
       </div>
 
-      <Button type="submit" fullWidth disabled={loading}>
+      <Button type="submit" fullWidth disabled={loading} variant="primary">
         {loading ? (
           <Spinner size="sm" color="white" />
         ) : (

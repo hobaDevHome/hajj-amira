@@ -70,7 +70,7 @@ const AddPersonModal = ({ isOpen, onClose }) => {
             <Button variant="outline" onClick={onClose} disabled={loading}>
               الغاء
             </Button>
-            <Button type="submit" disabled={loading}>
+            <Button type="submit" disabled={loading} variant="primary">
               {loading ? (
                 <Spinner size="sm" color="white" />
               ) : (

@@ -65,7 +65,7 @@ const PersonDetail = () => {
                 {person.name}
               </h1>
               {isComplete && totalDuaas > 0 && (
-                <span className="bg-success-500 text-white p-1 rounded-full">
+                <span className="bg-primary-500 text-white p-1 rounded-full">
                   <FaCheck size={12} />
                 </span>
               )}
